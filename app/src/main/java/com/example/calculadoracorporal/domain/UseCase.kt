@@ -12,7 +12,7 @@ class UseCase {
         val heightNumber = height.toDoubleOrNull()
         val ageNumber = age.toIntOrNull()
 
-        if (weightFormatted == null || heightNumber == null || ageNumber == null || weightFormatted <= 0 || heightNumber <= 0 || ageNumber <= 0 || weightFormatted > 500 || heightNumber > 300) {
+        if (weightFormatted == null || heightNumber == null || ageNumber == null || weightFormatted <= 0 || heightNumber <= 0 || ageNumber <= 0 || weightFormatted > 500 || heightNumber > 300 || ageNumber > 150) {
             return IMCResult("Valores inválidos", true)
         }
 
