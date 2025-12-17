@@ -27,7 +27,10 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-
+/** GEMINI - INÍCIO
+ * Prompt: Crie uma tabela com um histórico de entradas. (codigo contextualizado em anexo)
+ *
+ */
 @Composable
 fun HistoryScreen(
     viewModel: HomeViewModel,
@@ -109,8 +112,18 @@ fun TableCell(text: String, width: Int) {
     )
 }
 
+/** GEMINI - FINAL */
+
+
+
+/** GEMINI - INÍCIO
+ * Prompt: A data está com um erro na formatacao. Como defino corretamente?
+ *
+ */
 
 fun convertDate(timestamp: Long): String {
     val sdf = SimpleDateFormat("dd/MM/yy HH:mm", Locale.getDefault())
     return sdf.format(Date(timestamp))
 }
+
+/** GEMINI - FINAL */

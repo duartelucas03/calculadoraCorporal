@@ -32,7 +32,7 @@ fun DetailScreen(
                 .fillMaxSize()
                 .padding(paddingValues)
                 .background(White)
-                .verticalScroll(rememberScrollState()) // Permite rolar se o texto for grande
+                .verticalScroll(rememberScrollState())
                 .padding(16.dp)
         ) {
             Text(

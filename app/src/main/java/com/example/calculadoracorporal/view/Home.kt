@@ -56,7 +56,7 @@ fun Home(viewModel: HomeViewModel = viewModel()){
     var age by remember { mutableStateOf("") }
     var activity by remember { mutableStateOf("") }
 
-    // Variáveis para o Dropdown (Caixa de Seleção Flutuante)
+
     var gender by remember { mutableStateOf("") }
     var expandedGender by remember { mutableStateOf(false) }
     var expandedActivity by remember { mutableStateOf(false) }
