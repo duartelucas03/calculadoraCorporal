@@ -8,9 +8,9 @@ Este projeto é uma aplicação de saúde desenvolvida para Android que permite 
 
 Abaixo estão as capturas de tela que exemplificam o fluxo de uso, desde a entrada de dados até a visualização detalhada do histórico:
 
-| 1. Calculadora (Home) | 2. Resultado Rápido | 3. Histórico de Cálculos | 4. Detalhes Completos |
-| :---: | :---: | :---: | :---: |
-| ![Home](./screenshots/home.png) | ![Home Message](./screenshots/home_message.png) | ![Histórico](./screenshots/historico.png) | ![Detalhes](./screenshots/details.png) |
+| 1. Calculadora (Home) |               2. Resultado Rápido               | 3. Histórico de Cálculos |              4. Detalhes Completos               |
+| :---: |:-----------------------------------------------:| :---: |:------------------------------------------------:|
+| ![Home](./screenshots/home.png) | ![Home Message](./screenshots/home_message.jpg) | ![Histórico](./screenshots/historico.png) |      ![Detalhes](./screenshots/details.jpg)      |
 | Interface para inserção de dados biométricos. | Resultado imediato exibido logo após o cálculo. | Tabela com todos os registros salvos no Room. | Relatório detalhado com glossário e diagnóstico. |
 
 ---
